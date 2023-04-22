@@ -10,7 +10,7 @@ import re
 import numpy as np
 import pandas as pd
 
-API = IQ_Option('eduardomoura88@outlook.com', '1802Edu0##')
+API = IQ_Option('email', 'senha')
 API.connect()
 CONNECT = API.connect()
 if (CONNECT):
